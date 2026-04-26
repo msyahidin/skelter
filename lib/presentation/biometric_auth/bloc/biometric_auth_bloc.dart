@@ -1,12 +1,12 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_event.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_state.dart';
-import 'package:skelter/services/local_auth_services.dart';
-import 'package:skelter/shared_pref/pref_keys.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/utils/haptic_feedback_util.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_event.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_state.dart';
+import 'package:fuurutta/services/local_auth_services.dart';
+import 'package:fuurutta/shared_pref/pref_keys.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/utils/haptic_feedback_util.dart';
 
 class BiometricAuthBloc extends Bloc<BiometricAuthEvent, BiometricAuthState> {
   final LocalAuthService _localAuthService = sl();

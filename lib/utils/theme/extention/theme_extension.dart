@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/utils/theme/dark_app_colors.dart';
-import 'package:skelter/utils/theme/light_app_colors.dart';
-import 'package:skelter/utils/theme/theme_color_palette.dart';
+import 'package:fuurutta/utils/theme/dark_app_colors.dart';
+import 'package:fuurutta/utils/theme/light_app_colors.dart';
+import 'package:fuurutta/utils/theme/theme_color_palette.dart';
 
 extension ThemeExtension on BuildContext {
   ThemeColorPalette get currentTheme =>

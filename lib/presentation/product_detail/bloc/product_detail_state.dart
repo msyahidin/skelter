@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/ai_product_description.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/ai_product_description.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
 
 class ProductDetailState with EquatableMixin {
   final int selectedImageIndex;

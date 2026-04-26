@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:skelter/presentation/chat/model/chat_model.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/presentation/chat/model/chat_model.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class UserAvatar extends StatelessWidget {
   const UserAvatar({

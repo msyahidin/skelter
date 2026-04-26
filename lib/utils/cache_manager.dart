@@ -5,7 +5,7 @@ import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http_cache_file_store/http_cache_file_store.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:skelter/constants/constants.dart';
+import 'package:fuurutta/constants/constants.dart';
 
 class CacheManager {
   late final CacheOptions _defaultCacheOptions;

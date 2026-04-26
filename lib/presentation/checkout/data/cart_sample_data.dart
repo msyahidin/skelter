@@ -1,5 +1,5 @@
-import 'package:skelter/presentation/checkout/data/sample_products.dart';
-import 'package:skelter/presentation/checkout/model/product_cart.dart';
+import 'package:fuurutta/presentation/checkout/data/sample_products.dart';
+import 'package:fuurutta/presentation/checkout/model/product_cart.dart';
 
 final List<CartModel> cartSampleData = [
   CartModel(

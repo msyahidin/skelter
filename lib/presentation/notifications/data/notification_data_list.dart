@@ -1,4 +1,4 @@
-import 'package:skelter/presentation/notifications/model/notification_model.dart';
+import 'package:fuurutta/presentation/notifications/model/notification_model.dart';
 
 final List<NotificationModel> dummyNotifications = [
   NotificationModel(

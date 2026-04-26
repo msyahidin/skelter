@@ -6,33 +6,33 @@ import 'package:get_it/get_it.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:http_certificate_pinning/http_certificate_pinning.dart';
 import 'package:local_auth/local_auth.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/core/deep_link/app_deep_link_manager.dart';
-import 'package:skelter/main.dart';
-import 'package:skelter/presentation/home/data/datasources/product_remote_data_source.dart';
-import 'package:skelter/presentation/home/data/repositories/product_repository_impl.dart';
-import 'package:skelter/presentation/home/domain/repositories/product_repository.dart';
-import 'package:skelter/presentation/home/domain/usecases/get_products.dart';
-import 'package:skelter/presentation/product_detail/data/datasources/ai_product_description_remote_data_source.dart';
-import 'package:skelter/presentation/product_detail/data/datasources/product_detail_remote_data_source.dart';
-import 'package:skelter/presentation/product_detail/data/repositories/ai_product_description_repository_impl.dart';
-import 'package:skelter/presentation/product_detail/data/repositories/product_detail_repository_impl.dart';
-import 'package:skelter/presentation/product_detail/domain/repositories/ai_product_description_repository.dart';
-import 'package:skelter/presentation/product_detail/domain/repositories/product_detail_repository.dart';
-import 'package:skelter/presentation/product_detail/domain/usecases/generate_ai_product_description.dart';
-import 'package:skelter/presentation/product_detail/domain/usecases/get_product_detail.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/services/ai/gemini_service.dart';
-import 'package:skelter/services/firebase_auth_services.dart';
-import 'package:skelter/services/local_auth_services.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/utils/app_flavor_env.dart';
-import 'package:skelter/utils/cache_manager.dart';
-import 'package:skelter/utils/currency_converter/currency_converter_util.dart';
-import 'package:skelter/utils/currency_converter/data/datasources/currency_converter_remote_data_source.dart';
-import 'package:skelter/utils/currency_converter/data/repositories/currency_converter_repository_impl.dart';
-import 'package:skelter/utils/currency_converter/domain/repositories/currency_converter_repository.dart';
-import 'package:skelter/utils/currency_converter/domain/usecases/get_exchange_rate.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/core/deep_link/app_deep_link_manager.dart';
+import 'package:fuurutta/main.dart';
+import 'package:fuurutta/presentation/home/data/datasources/product_remote_data_source.dart';
+import 'package:fuurutta/presentation/home/data/repositories/product_repository_impl.dart';
+import 'package:fuurutta/presentation/home/domain/repositories/product_repository.dart';
+import 'package:fuurutta/presentation/home/domain/usecases/get_products.dart';
+import 'package:fuurutta/presentation/product_detail/data/datasources/ai_product_description_remote_data_source.dart';
+import 'package:fuurutta/presentation/product_detail/data/datasources/product_detail_remote_data_source.dart';
+import 'package:fuurutta/presentation/product_detail/data/repositories/ai_product_description_repository_impl.dart';
+import 'package:fuurutta/presentation/product_detail/data/repositories/product_detail_repository_impl.dart';
+import 'package:fuurutta/presentation/product_detail/domain/repositories/ai_product_description_repository.dart';
+import 'package:fuurutta/presentation/product_detail/domain/repositories/product_detail_repository.dart';
+import 'package:fuurutta/presentation/product_detail/domain/usecases/generate_ai_product_description.dart';
+import 'package:fuurutta/presentation/product_detail/domain/usecases/get_product_detail.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/services/ai/gemini_service.dart';
+import 'package:fuurutta/services/firebase_auth_services.dart';
+import 'package:fuurutta/services/local_auth_services.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/utils/app_flavor_env.dart';
+import 'package:fuurutta/utils/cache_manager.dart';
+import 'package:fuurutta/utils/currency_converter/currency_converter_util.dart';
+import 'package:fuurutta/utils/currency_converter/data/datasources/currency_converter_remote_data_source.dart';
+import 'package:fuurutta/utils/currency_converter/data/repositories/currency_converter_repository_impl.dart';
+import 'package:fuurutta/utils/currency_converter/domain/repositories/currency_converter_repository.dart';
+import 'package:fuurutta/utils/currency_converter/domain/usecases/get_exchange_rate.dart';
 
 final sl = GetIt.instance;
 bool _isForceLoggingOutUser = false;
@@ -64,14 +64,22 @@ Future<void> configureDependencies({
   await cacheManager.initialize();
   sl.registerSingleton<CacheManager>(cacheManager);
 
+  final baseUrl = AppConfig.baseUrl;
+  final hasValidBaseUrl = Uri.tryParse(baseUrl)?.hasScheme ?? false;
+
   final pinnedDio = dio ??
       Dio(
         BaseOptions(
-          baseUrl: AppConfig.baseUrl,
+          baseUrl: hasValidBaseUrl ? baseUrl : 'https://localhost',
           connectTimeout: const Duration(seconds: 10),
           receiveTimeout: const Duration(seconds: 10),
         ),
       );
+
+  if (!hasValidBaseUrl) {
+    debugPrint('[DI] WARNING: No valid API base URL configured. '
+        'API calls will not work.');
+  }
 
   _registerDioInterceptor(pinnedDio);
   sl<CacheManager>().attachCacheInterceptor(pinnedDio);
@@ -117,11 +125,13 @@ Future<void> configureDependencies({
 void _registerDioInterceptor(Dio dio) {
   final certHash = _getCertHash();
   dio.interceptors.addAll([
-    CertificatePinningInterceptor(
-      allowedSHAFingerprints: [certHash],
-      callFollowingErrorInterceptor: true,
-    ),
-    _sslPinningErrorInterceptor,
+    if (certHash.isNotEmpty) ...[
+      CertificatePinningInterceptor(
+        allowedSHAFingerprints: [certHash],
+        callFollowingErrorInterceptor: true,
+      ),
+      _sslPinningErrorInterceptor,
+    ],
     _authErrorInterceptor(),
   ]);
 }
@@ -181,15 +191,10 @@ InterceptorsWrapper _authErrorInterceptor() => InterceptorsWrapper(
 
 String _getCertHash() {
   final certificateHash = AppConfig.getDioCertHash();
-  if (certificateHash.isEmpty) {
-    throw Exception('[SSL Pinning] Missing certificate hash for: '
-        '${AppConfig.appFlavor.name}');
-  }
-
-  if (certificateHash.length != 64) {
-    throw Exception(
-        '[SSL Pinning] Certificate hash length is not 64 characters. '
-        'Current length: ${certificateHash.length}');
+  if (certificateHash.isEmpty || certificateHash.length != 64) {
+    debugPrint('[SSL Pinning] WARNING: No valid certificate hash for '
+        '${AppConfig.appFlavor.name}. SSL pinning disabled.');
+    return '';
   }
 
   debugPrint('[SSL Pinning] Using SHA-256 certHash: "$certificateHash"');

@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:skelter/core/errors/exceptions.dart';
-import 'package:skelter/core/errors/failure.dart';
-import 'package:skelter/presentation/product_detail/data/datasources/ai_product_description_remote_data_source.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/ai_product_description.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/presentation/product_detail/domain/repositories/ai_product_description_repository.dart';
+import 'package:fuurutta/core/errors/exceptions.dart';
+import 'package:fuurutta/core/errors/failure.dart';
+import 'package:fuurutta/presentation/product_detail/data/datasources/ai_product_description_remote_data_source.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/ai_product_description.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/domain/repositories/ai_product_description_repository.dart';
 
 class AIProductDescriptionRepositoryImpl
     implements AIProductDescriptionRepository {

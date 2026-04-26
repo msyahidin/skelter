@@ -1,4 +1,4 @@
-import 'package:skelter/presentation/chat/enum/message_type_enum.dart';
+import 'package:fuurutta/presentation/chat/enum/message_type_enum.dart';
 
 class ChatMessage {
   final int id;

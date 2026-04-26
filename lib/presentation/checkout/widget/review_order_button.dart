@@ -1,14 +1,14 @@
 import 'package:clarity_flutter/clarity_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/checkout/bloc/checkout_bloc.dart';
-import 'package:skelter/presentation/checkout/bloc/checkout_events.dart';
-import 'package:skelter/presentation/checkout/constants/analytics_constant.dart';
-import 'package:skelter/presentation/checkout/widget/custom_stepper.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/checkout/bloc/checkout_bloc.dart';
+import 'package:fuurutta/presentation/checkout/bloc/checkout_events.dart';
+import 'package:fuurutta/presentation/checkout/constants/analytics_constant.dart';
+import 'package:fuurutta/presentation/checkout/widget/custom_stepper.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
 
 class SelectAndReviewOrderButton extends StatelessWidget {
   const SelectAndReviewOrderButton({

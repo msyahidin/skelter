@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:skelter/utils/currency_converter/domain/entities/currency_rate.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/utils/currency_converter/domain/entities/currency_rate.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 class CurrencyRateModel extends CurrencyRate {
   const CurrencyRateModel({

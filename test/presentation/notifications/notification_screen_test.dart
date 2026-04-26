@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_bloc.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_event.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_state.dart';
-import 'package:skelter/presentation/notifications/data/notification_data_list.dart';
-import 'package:skelter/presentation/notifications/notifications_screen.dart';
-import 'package:skelter/widgets/styling/app_theme_data.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_bloc.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_event.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_state.dart';
+import 'package:fuurutta/presentation/notifications/data/notification_data_list.dart';
+import 'package:fuurutta/presentation/notifications/notifications_screen.dart';
+import 'package:fuurutta/widgets/styling/app_theme_data.dart';
 
 import '../../flutter_test_config.dart';
 import '../../test_helpers.dart';

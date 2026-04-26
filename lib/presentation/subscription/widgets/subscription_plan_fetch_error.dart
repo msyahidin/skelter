@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_bloc.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_state.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_bloc.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_state.dart';
 
 class SubscriptionPlanFetchError extends StatelessWidget {
   const SubscriptionPlanFetchError({super.key});

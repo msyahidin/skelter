@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:skelter/core/errors/exceptions.dart';
-import 'package:skelter/presentation/product_detail/data/models/product_detail_model.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/core/errors/exceptions.dart';
+import 'package:fuurutta/presentation/product_detail/data/models/product_detail_model.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 mixin ProductDetailRemoteDatasource {
   Future<ProductDetailModel> getProductDetail({required String id});

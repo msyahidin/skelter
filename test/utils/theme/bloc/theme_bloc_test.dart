@@ -2,10 +2,10 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/services/theme_service.dart';
-import 'package:skelter/utils/theme/bloc/theme_bloc.dart';
-import 'package:skelter/utils/theme/bloc/theme_event.dart';
-import 'package:skelter/utils/theme/bloc/theme_state.dart';
+import 'package:fuurutta/services/theme_service.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_bloc.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_event.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_state.dart';
 
 class MockThemeService extends Mock implements ThemeService {}
 

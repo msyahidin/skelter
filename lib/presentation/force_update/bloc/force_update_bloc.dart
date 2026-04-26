@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/presentation/force_update/bloc/force_update_event.dart';
-import 'package:skelter/presentation/force_update/bloc/force_update_state.dart';
+import 'package:fuurutta/presentation/force_update/bloc/force_update_event.dart';
+import 'package:fuurutta/presentation/force_update/bloc/force_update_state.dart';
 
 class ForceUpdateBloc extends Bloc<ForceUpdateEvent, ForceUpdateState> {
   ForceUpdateBloc({

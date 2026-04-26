@@ -1,4 +1,4 @@
-package com.solguruz.skelter
+package `in`.msyahid.fuurutta
 import android.content.Context.BATTERY_SERVICE
 import android.os.BatteryManager
 import io.flutter.embedding.android.FlutterActivity
@@ -7,7 +7,7 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.embedding.android.FlutterFragmentActivity
 
 class MainActivity : FlutterFragmentActivity() {
-    private val CHANNEL = "com.skelter.battery/channel"
+    private val CHANNEL = "com.fuurutta.battery/channel"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)

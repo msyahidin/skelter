@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:skelter/utils/extensions/primitive_types_extensions.dart';
+import 'package:fuurutta/utils/extensions/primitive_types_extensions.dart';
 
 void main() {
   group('String Extensions', () {

@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_event.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_state.dart';
-import 'package:skelter/presentation/product_detail/domain/usecases/generate_ai_product_description.dart';
-import 'package:skelter/presentation/product_detail/domain/usecases/get_product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_event.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_state.dart';
+import 'package:fuurutta/presentation/product_detail/domain/usecases/generate_ai_product_description.dart';
+import 'package:fuurutta/presentation/product_detail/domain/usecases/get_product_detail.dart';
 
 class ProductDetailBloc extends Bloc<ProductDetailEvent, ProductDetailState> {
   ProductDetailBloc({

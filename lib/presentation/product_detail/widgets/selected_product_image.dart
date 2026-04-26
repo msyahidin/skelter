@@ -2,13 +2,13 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_bloc.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_event.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/utils/app_environment.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_bloc.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_event.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/utils/app_environment.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class SelectedProductImage extends StatelessWidget {
   final ProductDetail productDetail;

@@ -7,21 +7,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_fgbg/flutter_fgbg.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart';
-import 'package:skelter/presentation/login/widgets/login_app_bar.dart';
-import 'package:skelter/presentation/signup/enum/user_details_input_status.dart';
-import 'package:skelter/presentation/verify_email/bloc/verify_email_bloc.dart';
-import 'package:skelter/presentation/verify_email/bloc/verify_email_event.dart';
-import 'package:skelter/presentation/verify_email/bloc/verify_email_state.dart';
-import 'package:skelter/presentation/verify_email/screens/widgets/entered_wrong_email.dart';
-import 'package:skelter/presentation/verify_email/screens/widgets/resend_verification_mail_button.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart';
+import 'package:fuurutta/presentation/login/widgets/login_app_bar.dart';
+import 'package:fuurutta/presentation/signup/enum/user_details_input_status.dart';
+import 'package:fuurutta/presentation/verify_email/bloc/verify_email_bloc.dart';
+import 'package:fuurutta/presentation/verify_email/bloc/verify_email_event.dart';
+import 'package:fuurutta/presentation/verify_email/bloc/verify_email_state.dart';
+import 'package:fuurutta/presentation/verify_email/screens/widgets/entered_wrong_email.dart';
+import 'package:fuurutta/presentation/verify_email/screens/widgets/resend_verification_mail_button.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 @RoutePage()
 class VerifyEmailScreen extends StatefulWidget {

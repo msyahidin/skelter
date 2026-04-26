@@ -1,4 +1,4 @@
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 mixin UseCaseWithParams<Type, Params> {
   ResultFuture<Type> call(Params params);

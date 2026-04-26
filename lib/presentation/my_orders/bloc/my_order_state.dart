@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
-import 'package:skelter/presentation/home/domain/entities/product.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/home/domain/entities/product.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
 
 class MyOrderState extends Equatable {
   const MyOrderState({

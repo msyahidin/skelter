@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/main.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_state_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_style_enum.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/main.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_state_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_style_enum.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 extension AppButtonStyleTextColors on AppButtonStyle {
   Color getTextColor(AppButtonState state) {

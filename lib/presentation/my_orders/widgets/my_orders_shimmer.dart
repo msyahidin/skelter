@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/shimmer/shimmer_content.dart';
-import 'package:skelter/widgets/shimmer/shimmer_image.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/shimmer/shimmer_content.dart';
+import 'package:fuurutta/widgets/shimmer/shimmer_image.dart';
 
 class MyOrdersShimmer extends StatelessWidget {
   const MyOrdersShimmer({

@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_event.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_state.dart';
-import 'package:skelter/services/subscription_service.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_event.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_state.dart';
+import 'package:fuurutta/services/subscription_service.dart';
 
 class SubscriptionBloc extends Bloc<SubscriptionEvent, SubscriptionState> {
   final AppLocalizations _localization;

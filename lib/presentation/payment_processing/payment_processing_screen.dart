@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/presentation/payment_processing/widgets/payment_loading_indicator.dart';
-import 'package:skelter/presentation/payment_processing/widgets/payment_processing_message.dart';
-import 'package:skelter/presentation/payment_processing/widgets/payment_processing_title.dart';
+import 'package:fuurutta/presentation/payment_processing/widgets/payment_loading_indicator.dart';
+import 'package:fuurutta/presentation/payment_processing/widgets/payment_processing_message.dart';
+import 'package:fuurutta/presentation/payment_processing/widgets/payment_processing_title.dart';
 
 class PaymentProcessingScreen extends StatelessWidget {
   const PaymentProcessingScreen({super.key});

@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/core/errors/failure.dart';
-import 'package:skelter/utils/currency_converter/currency_converter_util.dart';
-import 'package:skelter/utils/currency_converter/domain/usecases/get_exchange_rate.dart';
+import 'package:fuurutta/core/errors/failure.dart';
+import 'package:fuurutta/utils/currency_converter/currency_converter_util.dart';
+import 'package:fuurutta/utils/currency_converter/domain/usecases/get_exchange_rate.dart';
 import 'data/currency_converter_sample_data.dart';
 
 class MockGetExchangeRate extends Mock implements GetExchangeRate {}

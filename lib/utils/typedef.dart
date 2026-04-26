@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:skelter/core/errors/failure.dart';
+import 'package:fuurutta/core/errors/failure.dart';
 
 typedef ResultFuture<T> = Future<Either<Failure, T>>;
 

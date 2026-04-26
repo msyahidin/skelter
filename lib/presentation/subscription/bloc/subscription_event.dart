@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:skelter/presentation/subscription/model/subscription_package_model.dart';
+import 'package:fuurutta/presentation/subscription/model/subscription_package_model.dart';
 
 abstract class SubscriptionEvent extends Equatable {
   const SubscriptionEvent();

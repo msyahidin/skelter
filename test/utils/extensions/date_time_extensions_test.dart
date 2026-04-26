@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/utils/date_time_picker_util.dart';
-import 'package:skelter/utils/extensions/date_time_extensions.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/utils/date_time_picker_util.dart';
+import 'package:fuurutta/utils/extensions/date_time_extensions.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 

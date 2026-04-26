@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/force_update/constants/force_update_constants.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/force_update/constants/force_update_constants.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SslFailedButton extends StatelessWidget {

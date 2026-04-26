@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 class BatteryUtil {
   static const _method = 'getBatteryLevel';
   static const MethodChannel _channel =
-      MethodChannel('com.skelter.battery/channel');
+      MethodChannel('com.fuurutta.battery/channel');
 
   static Future<int?> getBatteryLevel() async {
     try {

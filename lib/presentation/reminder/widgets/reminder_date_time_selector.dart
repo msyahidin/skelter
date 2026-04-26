@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
 import 'package:intl/intl.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_bloc.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_event.dart';
-import 'package:skelter/presentation/reminder/constatnts/reminder_constants.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_bloc.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_event.dart';
+import 'package:fuurutta/presentation/reminder/constatnts/reminder_constants.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class ReminderDateTimeSelector extends StatelessWidget {
   const ReminderDateTimeSelector({super.key});

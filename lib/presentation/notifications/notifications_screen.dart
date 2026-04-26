@@ -1,16 +1,16 @@
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_bloc.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_event.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_state.dart';
-import 'package:skelter/presentation/notifications/model/notification_model.dart';
-import 'package:skelter/presentation/notifications/widgets/empty_notifications_view.dart';
-import 'package:skelter/presentation/notifications/widgets/notification_app_bar.dart';
-import 'package:skelter/presentation/notifications/widgets/notification_list.dart';
-import 'package:skelter/presentation/notifications/widgets/notification_loading_shimmer_list.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_bloc.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_event.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_state.dart';
+import 'package:fuurutta/presentation/notifications/model/notification_model.dart';
+import 'package:fuurutta/presentation/notifications/widgets/empty_notifications_view.dart';
+import 'package:fuurutta/presentation/notifications/widgets/notification_app_bar.dart';
+import 'package:fuurutta/presentation/notifications/widgets/notification_list.dart';
+import 'package:fuurutta/presentation/notifications/widgets/notification_loading_shimmer_list.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
 
 @RoutePage()
 class NotificationsScreen extends StatelessWidget {

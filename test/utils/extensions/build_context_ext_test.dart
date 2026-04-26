@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 void main() {
   group('BuildContext Extensions', () {

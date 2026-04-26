@@ -8,8 +8,8 @@ import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/checkout/model/invoice_model.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/checkout/model/invoice_model.dart';
 
 class PdfService {
   static Future<Uint8List> generateInvoicePdf(

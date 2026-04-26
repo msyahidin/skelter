@@ -1,19 +1,19 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/login/bloc/login_bloc.dart';
-import 'package:skelter/presentation/login/bloc/login_events.dart';
-import 'package:skelter/presentation/login/bloc/login_state.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/widgets/heading_welcome_widget.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/widgets/login_options_divider.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/widgets/more_login_options_button.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/widgets/phone_number_text_field.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/widgets/send_otp_button.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
-import 'package:skelter/utils/extensions/primitive_types_extensions.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/login/bloc/login_bloc.dart';
+import 'package:fuurutta/presentation/login/bloc/login_events.dart';
+import 'package:fuurutta/presentation/login/bloc/login_state.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/widgets/heading_welcome_widget.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/widgets/login_options_divider.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/widgets/more_login_options_button.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/widgets/phone_number_text_field.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/widgets/send_otp_button.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/utils/extensions/primitive_types_extensions.dart';
 
 @RoutePage()
 class LoginWithPhoneNumberScreen extends StatefulWidget {

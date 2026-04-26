@@ -1,4 +1,4 @@
-package com.solguruz.skelter;
+package in.msyahid.fuurutta;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import org.junit.Test;

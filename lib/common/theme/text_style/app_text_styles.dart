@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/gen/fonts.gen.dart';
+import 'package:fuurutta/gen/fonts.gen.dart';
 
 class AppTextStyles {
   static TextStyle h1 = const TextStyle(

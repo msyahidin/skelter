@@ -3,8 +3,8 @@ import 'dart:typed_data';
 
 import 'package:mime/mime.dart';
 import 'package:path/path.dart' as path;
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/presentation/contact_us/constant/contact_us_constants.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/presentation/contact_us/constant/contact_us_constants.dart';
 
 class FileValidator {
   /// List of acceptable MIME types mapped to their extensions

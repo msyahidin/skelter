@@ -1,10 +1,10 @@
 import 'package:auto_route/annotations.dart';
 import 'package:clarity_flutter/clarity_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:skelter/presentation/chat/model/chat_model.dart';
-import 'package:skelter/presentation/chat/widgets/chat_conversation_app_bar.dart';
-import 'package:skelter/presentation/chat/widgets/chat_message_list.dart';
-import 'package:skelter/presentation/chat/widgets/new_message_text_field.dart';
+import 'package:fuurutta/presentation/chat/model/chat_model.dart';
+import 'package:fuurutta/presentation/chat/widgets/chat_conversation_app_bar.dart';
+import 'package:fuurutta/presentation/chat/widgets/chat_message_list.dart';
+import 'package:fuurutta/presentation/chat/widgets/new_message_text_field.dart';
 
 @RoutePage()
 class ChatConversationScreen extends StatelessWidget {

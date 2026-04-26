@@ -4,10 +4,10 @@ import 'package:local_auth/error_codes.dart' as auth_error;
 import 'package:local_auth/local_auth.dart';
 import 'package:local_auth_android/local_auth_android.dart';
 import 'package:local_auth_darwin/local_auth_darwin.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/shared_pref/pref_keys.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/utils/extensions/date_time_extensions.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/shared_pref/pref_keys.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/utils/extensions/date_time_extensions.dart';
 
 /// Authenticates the user using biometric methods
 /// (fingerprint, face recognition, pattern, .)

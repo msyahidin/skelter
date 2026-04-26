@@ -1,4 +1,4 @@
-import 'package:skelter/presentation/product_detail/data/models/product_detail_model.dart';
+import 'package:fuurutta/presentation/product_detail/data/models/product_detail_model.dart';
 
 const ProductDetailModel sampleProductDetailData = ProductDetailModel(
   id: 'POO1',

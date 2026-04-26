@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:skelter/presentation/notifications/data/notification_data_list.dart';
-import 'package:skelter/presentation/notifications/model/notification_model.dart';
+import 'package:fuurutta/presentation/notifications/data/notification_data_list.dart';
+import 'package:fuurutta/presentation/notifications/model/notification_model.dart';
 
 class NotificationState with EquatableMixin {
   final bool isLoading;

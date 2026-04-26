@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_bloc.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_event.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_state.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/presentation/product_detail/widgets/ai_description_content.dart';
-import 'package:skelter/presentation/product_detail/widgets/ai_description_error_widget.dart';
-import 'package:skelter/presentation/product_detail/widgets/ai_description_generate_button.dart';
-import 'package:skelter/presentation/product_detail/widgets/ai_description_header.dart';
-import 'package:skelter/presentation/product_detail/widgets/ai_description_shimmer.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_bloc.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_event.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_state.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/widgets/ai_description_content.dart';
+import 'package:fuurutta/presentation/product_detail/widgets/ai_description_error_widget.dart';
+import 'package:fuurutta/presentation/product_detail/widgets/ai_description_generate_button.dart';
+import 'package:fuurutta/presentation/product_detail/widgets/ai_description_header.dart';
+import 'package:fuurutta/presentation/product_detail/widgets/ai_description_shimmer.dart';
 
 class AIProductDescription extends StatelessWidget {
   final ProductDetail productDetail;

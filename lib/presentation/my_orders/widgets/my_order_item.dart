@@ -5,13 +5,13 @@ import 'package:flutter_rating_bar_plus/flutter_rating_bar_plus.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
 import 'package:sizer/sizer.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/home/domain/entities/product.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/utils/app_environment.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/home/domain/entities/product.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/utils/app_environment.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class MyOrderItem extends StatelessWidget {
   const MyOrderItem({super.key, required this.product});

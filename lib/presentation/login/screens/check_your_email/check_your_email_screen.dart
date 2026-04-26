@@ -4,14 +4,14 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/login/bloc/login_bloc.dart';
-import 'package:skelter/presentation/login/bloc/login_events.dart';
-import 'package:skelter/presentation/login/screens/check_your_email/widgets/continue_login_button.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/login/bloc/login_bloc.dart';
+import 'package:fuurutta/presentation/login/bloc/login_events.dart';
+import 'package:fuurutta/presentation/login/screens/check_your_email/widgets/continue_login_button.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 @RoutePage()
 class CheckYourEmailScreen extends StatelessWidget {

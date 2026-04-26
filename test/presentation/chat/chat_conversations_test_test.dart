@@ -4,9 +4,9 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:skelter/presentation/chat/chat_conversations.dart';
-import 'package:skelter/presentation/chat/model/chat_model.dart';
-import 'package:skelter/widgets/styling/app_theme_data.dart';
+import 'package:fuurutta/presentation/chat/chat_conversations.dart';
+import 'package:fuurutta/presentation/chat/model/chat_model.dart';
+import 'package:fuurutta/widgets/styling/app_theme_data.dart';
 
 import '../../flutter_test_config.dart';
 import '../../test_app_cache_manager.dart';

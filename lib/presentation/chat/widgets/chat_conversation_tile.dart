@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/presentation/chat/enum/message_type_enum.dart';
-import 'package:skelter/presentation/chat/model/chat_message_model.dart';
-import 'package:skelter/presentation/chat/model/chat_model.dart';
-import 'package:skelter/presentation/chat/widgets/message_types.dart';
-import 'package:skelter/presentation/chat/widgets/replied_to.dart';
-import 'package:skelter/presentation/chat/widgets/time_ago.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/presentation/chat/enum/message_type_enum.dart';
+import 'package:fuurutta/presentation/chat/model/chat_message_model.dart';
+import 'package:fuurutta/presentation/chat/model/chat_model.dart';
+import 'package:fuurutta/presentation/chat/widgets/message_types.dart';
+import 'package:fuurutta/presentation/chat/widgets/replied_to.dart';
+import 'package:fuurutta/presentation/chat/widgets/time_ago.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class ChatConversationTile extends StatelessWidget {
   const ChatConversationTile({

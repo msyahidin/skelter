@@ -19,7 +19,7 @@ import UIKit
         }
 
         let batteryChannel = FlutterMethodChannel(
-            name: "com.skelter.battery/channel",
+            name: "com.fuurutta.battery/channel",
             binaryMessenger: controller.binaryMessenger
         )
 

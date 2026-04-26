@@ -2,14 +2,14 @@ import 'package:auto_route/auto_route.dart';
 import 'package:clarity_flutter/clarity_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/presentation/checkout/initial_checkout_screen.dart';
-import 'package:skelter/presentation/home/bloc/home_bloc.dart';
-import 'package:skelter/presentation/home/bloc/home_event.dart';
-import 'package:skelter/presentation/home/widgets/bottom_nav_bar.dart';
-import 'package:skelter/presentation/home/widgets/home_screen_body.dart';
-import 'package:skelter/presentation/profile/profile_screen.dart';
-import 'package:skelter/presentation/search/search_screen.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/presentation/checkout/initial_checkout_screen.dart';
+import 'package:fuurutta/presentation/home/bloc/home_bloc.dart';
+import 'package:fuurutta/presentation/home/bloc/home_event.dart';
+import 'package:fuurutta/presentation/home/widgets/bottom_nav_bar.dart';
+import 'package:fuurutta/presentation/home/widgets/home_screen_body.dart';
+import 'package:fuurutta/presentation/profile/profile_screen.dart';
+import 'package:fuurutta/presentation/search/search_screen.dart';
 
 @RoutePage()
 class HomeScreen extends StatelessWidget {

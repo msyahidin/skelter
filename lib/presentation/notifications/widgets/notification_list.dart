@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_bloc.dart';
-import 'package:skelter/presentation/notifications/bloc/notification_event.dart';
-import 'package:skelter/presentation/notifications/model/notification_model.dart';
-import 'package:skelter/presentation/notifications/widgets/notification_card.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_bloc.dart';
+import 'package:fuurutta/presentation/notifications/bloc/notification_event.dart';
+import 'package:fuurutta/presentation/notifications/model/notification_model.dart';
+import 'package:fuurutta/presentation/notifications/widgets/notification_card.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class NotificationList extends StatelessWidget {
   const NotificationList({super.key});

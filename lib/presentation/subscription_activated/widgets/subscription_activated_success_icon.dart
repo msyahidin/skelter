@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/gen/assets.gen.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
 
 class SubscriptionActivatedSuccessIcon extends StatelessWidget {
   const SubscriptionActivatedSuccessIcon({super.key});

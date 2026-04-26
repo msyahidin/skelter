@@ -1,4 +1,4 @@
-import 'package:skelter/constants/constants.dart';
+import 'package:fuurutta/constants/constants.dart';
 
 // Max number of files allowed for uploads
 const int kMaxFileLimit = 5;

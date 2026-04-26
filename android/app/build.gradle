@@ -10,23 +10,23 @@ plugins {
 }
 
 android {
-    namespace = "com.solguruz.skelter"
+    namespace = "in.msyahid.fuurutta"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
         coreLibraryDesugaringEnabled true
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8
+        jvmTarget = JavaVersion.VERSION_17
     }
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.solguruz.skelter"
+        applicationId = "in.msyahid.fuurutta"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdkVersion = flutter.minSdkVersion
@@ -49,21 +49,21 @@ android {
     productFlavors {
         dev {
             dimension "app"
-            resValue "string", "app_name", "Skelter Dev"
+            resValue "string", "app_name", "Fuurutta Dev"
             versionNameSuffix "-dev"
-            applicationId "com.solguruz.skelter.dev"
+            applicationId "in.msyahid.fuurutta.dev"
         }
         prod {
             dimension "app"
-            resValue "string", "app_name", "Skelter"
+            resValue "string", "app_name", "Fuurutta"
             versionNameSuffix "-prod"
-            applicationId "com.solguruz.skelter"
+            applicationId "in.msyahid.fuurutta"
         }
         stage {
             dimension "app"
-            resValue "string", "app_name", "Skelter Stage"
+            resValue "string", "app_name", "Fuurutta Stage"
             versionNameSuffix "-stage"
-            applicationId "com.solguruz.skelter.stage"
+            applicationId "in.msyahid.fuurutta.stage"
         }
     }
 

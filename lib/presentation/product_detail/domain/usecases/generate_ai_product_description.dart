@@ -1,9 +1,9 @@
 import 'package:equatable/equatable.dart';
-import 'package:skelter/core/usecase/usecase.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/ai_product_description.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/presentation/product_detail/domain/repositories/ai_product_description_repository.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/core/usecase/usecase.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/ai_product_description.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/domain/repositories/ai_product_description_repository.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 class GenerateAIProductDescription
     with

@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:intl/intl.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/utils/app_environment.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/utils/app_environment.dart';
 
 extension DateTimeExtensions on DateTime {
   String format({

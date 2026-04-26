@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/presentation/force_update/bloc/force_update_bloc.dart';
-import 'package:skelter/presentation/force_update/bloc/force_update_event.dart';
-import 'package:skelter/presentation/force_update/bloc/force_update_state.dart';
-import 'package:skelter/presentation/force_update/force_update_screen.dart';
-import 'package:skelter/widgets/styling/app_theme_data.dart';
+import 'package:fuurutta/presentation/force_update/bloc/force_update_bloc.dart';
+import 'package:fuurutta/presentation/force_update/bloc/force_update_event.dart';
+import 'package:fuurutta/presentation/force_update/bloc/force_update_state.dart';
+import 'package:fuurutta/presentation/force_update/force_update_screen.dart';
+import 'package:fuurutta/widgets/styling/app_theme_data.dart';
 
 import '../../flutter_test_config.dart';
 import '../../test_helpers.dart';

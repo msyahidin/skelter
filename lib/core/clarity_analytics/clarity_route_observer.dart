@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:clarity_flutter/clarity_flutter.dart';
 import 'package:flutter/widgets.dart';
-import 'package:skelter/routes.gr.dart';
+import 'package:fuurutta/routes.gr.dart';
 
 /// Observes all route changes and reports the current screen to Clarity.
 /// Tracks all screens by default and

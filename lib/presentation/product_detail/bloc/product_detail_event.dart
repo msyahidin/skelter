@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
 
 abstract class ProductDetailEvent with EquatableMixin {
   const ProductDetailEvent();

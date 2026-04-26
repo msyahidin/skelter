@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/presentation/profile/bloc/profile_event.dart';
-import 'package:skelter/presentation/profile/bloc/profile_state.dart';
-import 'package:skelter/services/firebase_auth_services.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/utils/cache_manager.dart';
-import 'package:skelter/utils/haptic_feedback_util.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/presentation/profile/bloc/profile_event.dart';
+import 'package:fuurutta/presentation/profile/bloc/profile_state.dart';
+import 'package:fuurutta/services/firebase_auth_services.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/utils/cache_manager.dart';
+import 'package:fuurutta/utils/haptic_feedback_util.dart';
 
 class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
   ProfileBloc()

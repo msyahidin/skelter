@@ -2,9 +2,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/subscription/model/subscription_package_model.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/subscription/model/subscription_package_model.dart';
 
 class SubscriptionService {
   static const String subscriptionEntitlement = 'Skelter Pro';

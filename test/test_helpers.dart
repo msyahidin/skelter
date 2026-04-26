@@ -5,11 +5,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:sizer/sizer.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/utils/theme/bloc/theme_bloc.dart';
-import 'package:skelter/utils/theme/bloc/theme_event.dart';
-import 'package:skelter/utils/theme/bloc/theme_state.dart';
-import 'package:skelter/widgets/styling/app_theme_data.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_bloc.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_event.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_state.dart';
+import 'package:fuurutta/widgets/styling/app_theme_data.dart';
 
 import 'flutter_test_config.dart';
 

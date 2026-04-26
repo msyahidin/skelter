@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:skelter/services/theme_service.dart';
-import 'package:skelter/utils/theme/bloc/theme_event.dart';
-import 'package:skelter/utils/theme/bloc/theme_state.dart';
+import 'package:fuurutta/services/theme_service.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_event.dart';
+import 'package:fuurutta/utils/theme/bloc/theme_state.dart';
 
 class ThemeBloc extends Bloc<ThemeEvent, ThemeState> {
   final ThemeService service;

@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:skelter/utils/theme/theme_color_palette.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/utils/theme/theme_color_palette.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class DarkAppColors implements ThemeColorPalette {
   @override

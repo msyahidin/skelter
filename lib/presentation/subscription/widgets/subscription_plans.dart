@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_bloc.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_event.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_state.dart';
-import 'package:skelter/presentation/subscription/model/subscription_package_model.dart';
-import 'package:skelter/presentation/subscription/widgets/subscription_plan_card.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_bloc.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_event.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_state.dart';
+import 'package:fuurutta/presentation/subscription/model/subscription_package_model.dart';
+import 'package:fuurutta/presentation/subscription/widgets/subscription_plan_card.dart';
 
 class SubscriptionPlans extends StatelessWidget {
   const SubscriptionPlans({super.key});

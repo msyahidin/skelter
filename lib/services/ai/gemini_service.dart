@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:firebase_ai/firebase_ai.dart';
 import 'package:flutter/foundation.dart';
-import 'package:skelter/services/ai/gemini_constants.dart';
+import 'package:fuurutta/services/ai/gemini_constants.dart';
 
 class GeminiService {
   factory GeminiService() {

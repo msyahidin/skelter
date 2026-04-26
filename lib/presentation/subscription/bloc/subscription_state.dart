@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:skelter/presentation/subscription/model/subscription_package_model.dart';
+import 'package:fuurutta/presentation/subscription/model/subscription_package_model.dart';
 
 class SubscriptionState with EquatableMixin {
   final List<SubscriptionPackageModel> packages;

@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_bloc.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_event.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_state.dart';
-import 'package:skelter/presentation/product_detail/widgets/selected_product_image.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_bloc.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_event.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_state.dart';
+import 'package:fuurutta/presentation/product_detail/widgets/selected_product_image.dart';
 
 import '../../flutter_test_config.dart';
 import '../../test_helpers.dart';

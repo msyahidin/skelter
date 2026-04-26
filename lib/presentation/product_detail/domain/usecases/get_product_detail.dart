@@ -1,7 +1,7 @@
-import 'package:skelter/core/usecase/usecase.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/presentation/product_detail/domain/repositories/product_detail_repository.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/core/usecase/usecase.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/presentation/product_detail/domain/repositories/product_detail_repository.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 class GetProductDetailParams {
   const GetProductDetailParams({required this.id});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/widgets/app_button/app_button_color.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_state_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_style_enum.dart';
+import 'package:fuurutta/widgets/app_button/app_button_color.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_state_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_style_enum.dart';
 
 extension AppButtonDecorationExtension on AppButtonStyle {
   BoxDecoration? toBoxDecoration(

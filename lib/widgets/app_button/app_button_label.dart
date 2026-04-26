@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_state_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_style_enum.dart';
-import 'package:skelter/widgets/app_button/extensions/app_button_size_extension.dart';
-import 'package:skelter/widgets/app_button/extensions/app_button_style_text_colors.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_state_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_style_enum.dart';
+import 'package:fuurutta/widgets/app_button/extensions/app_button_size_extension.dart';
+import 'package:fuurutta/widgets/app_button/extensions/app_button_style_text_colors.dart';
 
 class AppButtonLabel extends StatelessWidget {
   final String label;

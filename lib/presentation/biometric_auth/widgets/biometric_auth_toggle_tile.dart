@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_bloc.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_event.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_bloc.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_event.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class BiometricAuthToggleTile extends StatelessWidget {
   const BiometricAuthToggleTile({super.key});

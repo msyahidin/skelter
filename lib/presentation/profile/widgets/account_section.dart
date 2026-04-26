@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/profile/bloc/profile_bloc.dart';
-import 'package:skelter/presentation/profile/bloc/profile_event.dart';
-import 'package:skelter/presentation/profile/widgets/divider.dart';
-import 'package:skelter/presentation/profile/widgets/manage_subscription.dart';
-import 'package:skelter/presentation/profile/widgets/personal_details.dart';
-import 'package:skelter/presentation/profile/widgets/upgrade_to_pro.dart';
-import 'package:skelter/services/subscription_service.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/profile/bloc/profile_bloc.dart';
+import 'package:fuurutta/presentation/profile/bloc/profile_event.dart';
+import 'package:fuurutta/presentation/profile/widgets/divider.dart';
+import 'package:fuurutta/presentation/profile/widgets/manage_subscription.dart';
+import 'package:fuurutta/presentation/profile/widgets/personal_details.dart';
+import 'package:fuurutta/presentation/profile/widgets/upgrade_to_pro.dart';
+import 'package:fuurutta/services/subscription_service.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class AccountSection extends StatefulWidget {
   const AccountSection({super.key});

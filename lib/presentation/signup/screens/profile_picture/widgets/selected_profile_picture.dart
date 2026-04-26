@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/presentation/signup/bloc/signup_bloc.dart';
-import 'package:skelter/utils/app_environment.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/presentation/signup/bloc/signup_bloc.dart';
+import 'package:fuurutta/utils/app_environment.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class SelectedProfilePicture extends StatelessWidget {
   const SelectedProfilePicture({super.key});

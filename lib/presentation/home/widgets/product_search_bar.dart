@@ -5,16 +5,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/home/bloc/home_bloc.dart';
-import 'package:skelter/presentation/home/bloc/home_event.dart';
-import 'package:skelter/presentation/home/bloc/home_state.dart';
-import 'package:skelter/presentation/home/constants/analytics_constant.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
-import 'package:skelter/utils/haptic_feedback_util.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/home/bloc/home_bloc.dart';
+import 'package:fuurutta/presentation/home/bloc/home_event.dart';
+import 'package:fuurutta/presentation/home/bloc/home_state.dart';
+import 'package:fuurutta/presentation/home/constants/analytics_constant.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/utils/haptic_feedback_util.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class ProductSearchBar extends StatefulWidget {
   const ProductSearchBar({super.key});

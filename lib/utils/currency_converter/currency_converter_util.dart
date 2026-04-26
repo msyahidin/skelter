@@ -1,4 +1,4 @@
-import 'package:skelter/utils/currency_converter/domain/usecases/get_exchange_rate.dart';
+import 'package:fuurutta/utils/currency_converter/domain/usecases/get_exchange_rate.dart';
 
 /// A utility class for currency conversion.
 ///

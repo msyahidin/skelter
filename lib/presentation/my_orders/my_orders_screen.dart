@@ -1,15 +1,15 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/home/domain/entities/product.dart';
-import 'package:skelter/presentation/my_orders/bloc/my_order_bloc.dart';
-import 'package:skelter/presentation/my_orders/bloc/my_order_event.dart';
-import 'package:skelter/presentation/my_orders/bloc/my_order_state.dart';
-import 'package:skelter/presentation/my_orders/widgets/my_order_app_bar.dart';
-import 'package:skelter/presentation/my_orders/widgets/my_order_item.dart';
-import 'package:skelter/presentation/my_orders/widgets/my_orders_shimmer.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/home/domain/entities/product.dart';
+import 'package:fuurutta/presentation/my_orders/bloc/my_order_bloc.dart';
+import 'package:fuurutta/presentation/my_orders/bloc/my_order_event.dart';
+import 'package:fuurutta/presentation/my_orders/bloc/my_order_state.dart';
+import 'package:fuurutta/presentation/my_orders/widgets/my_order_app_bar.dart';
+import 'package:fuurutta/presentation/my_orders/widgets/my_order_item.dart';
+import 'package:fuurutta/presentation/my_orders/widgets/my_orders_shimmer.dart';
 
 @RoutePage()
 class MyOrdersScreen extends StatelessWidget {

@@ -1,7 +1,7 @@
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/checkout/model/product_cart.dart';
-import 'package:skelter/presentation/home/data/models/product_model.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/checkout/model/product_cart.dart';
+import 'package:fuurutta/presentation/home/data/models/product_model.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
 
 class InvoiceModel {
   final String invoiceNumber;

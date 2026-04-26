@@ -1,5 +1,5 @@
-import 'package:skelter/presentation/product_detail/domain/entities/ai_product_description.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/ai_product_description.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 class AIProductDescriptionModel extends AIProductDescription {
   const AIProductDescriptionModel({

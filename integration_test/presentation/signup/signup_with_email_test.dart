@@ -5,10 +5,10 @@ import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:patrol/patrol.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/constants/integration_test_keys.dart';
-import 'package:skelter/initialize_app.dart';
-import 'package:skelter/main.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/constants/integration_test_keys.dart';
+import 'package:fuurutta/initialize_app.dart';
+import 'package:fuurutta/main.dart';
 
 import '../../demo_product_response.dart';
 import '../../mock_firebase_auth.dart';

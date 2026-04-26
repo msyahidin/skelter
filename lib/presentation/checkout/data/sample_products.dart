@@ -1,4 +1,4 @@
-import 'package:skelter/presentation/home/data/models/product_model.dart';
+import 'package:fuurutta/presentation/home/data/models/product_model.dart';
 
 final List<ProductModel> sampleProducts = [
   const ProductModel(

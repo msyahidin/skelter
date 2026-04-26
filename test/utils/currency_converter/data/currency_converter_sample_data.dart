@@ -1,5 +1,5 @@
-import 'package:skelter/utils/currency_converter/data/models/currency_rate_model.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/utils/currency_converter/data/models/currency_rate_model.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 const CurrencyRateModel sampleCurrencyRateData = CurrencyRateModel(
   amount: 1.0,

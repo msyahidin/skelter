@@ -1,4 +1,4 @@
-name: skelter
+name: fuurutta
 description: >
   A production-grade Flutter boilerplate by SolGuruz, designed to jump-start
   app development with prebuilt utility functions, reusable UI components,
@@ -159,6 +159,6 @@ patrol:
   app_name: Flutter Skelter
   flavors: dev
   android:
-    package_name: com.solguruz.skelter.dev
+    package_name: in.msyahid.fuurutta.dev
   ios:
-    bundle_id: com.solguruz.skelter.dev
+    bundle_id: in.msyahid.fuurutta.dev

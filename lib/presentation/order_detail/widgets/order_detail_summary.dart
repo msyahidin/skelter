@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/my_orders/bloc/my_order_bloc.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/my_orders/bloc/my_order_bloc.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class OrderDetailSummary extends StatelessWidget {
   const OrderDetailSummary({super.key});

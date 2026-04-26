@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/constants/integration_test_keys.dart';
-import 'package:skelter/presentation/home/bloc/home_bloc.dart';
-import 'package:skelter/presentation/home/bloc/home_state.dart';
-import 'package:skelter/presentation/home/domain/entities/product.dart';
-import 'package:skelter/presentation/home/widgets/empty_search_view.dart';
-import 'package:skelter/presentation/home/widgets/product_card.dart';
-import 'package:skelter/presentation/home/widgets/product_shimmer.dart';
+import 'package:fuurutta/constants/integration_test_keys.dart';
+import 'package:fuurutta/presentation/home/bloc/home_bloc.dart';
+import 'package:fuurutta/presentation/home/bloc/home_state.dart';
+import 'package:fuurutta/presentation/home/domain/entities/product.dart';
+import 'package:fuurutta/presentation/home/widgets/empty_search_view.dart';
+import 'package:fuurutta/presentation/home/widgets/product_card.dart';
+import 'package:fuurutta/presentation/home/widgets/product_shimmer.dart';
 
 class TopProductGrid extends StatelessWidget {
   const TopProductGrid({super.key});

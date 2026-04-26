@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/product_detail/bloc/product_detail_state.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/product_detail/bloc/product_detail_state.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class AIDescriptionErrorWidget extends StatelessWidget {
   const AIDescriptionErrorWidget({

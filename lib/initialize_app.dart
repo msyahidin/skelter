@@ -10,16 +10,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/firebase_options_dev.dart' as dev;
-import 'package:skelter/firebase_options_prod.dart' as prod;
-import 'package:skelter/firebase_options_stage.dart' as stage;
-import 'package:skelter/services/ai/gemini_service.dart';
-import 'package:skelter/services/firebase_auth_services.dart';
-import 'package:skelter/services/notification_service.dart';
-import 'package:skelter/services/remote_config_service.dart';
-import 'package:skelter/utils/app_environment.dart';
-import 'package:skelter/utils/app_flavor_env.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/firebase_options_dev.dart' as dev;
+import 'package:fuurutta/firebase_options_prod.dart' as prod;
+import 'package:fuurutta/firebase_options_stage.dart' as stage;
+import 'package:fuurutta/services/ai/gemini_service.dart';
+import 'package:fuurutta/services/firebase_auth_services.dart';
+import 'package:fuurutta/services/notification_service.dart';
+import 'package:fuurutta/services/remote_config_service.dart';
+import 'package:fuurutta/utils/app_environment.dart';
+import 'package:fuurutta/utils/app_flavor_env.dart';
 import 'package:timezone/data/latest.dart' as tz;
 
 Future<void> initializeApp({

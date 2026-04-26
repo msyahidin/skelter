@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:skelter/presentation/signup/enum/user_details_input_status.dart';
+import 'package:fuurutta/presentation/signup/enum/user_details_input_status.dart';
 
 abstract class VerifyEmailEvent extends Equatable {
   const VerifyEmailEvent();

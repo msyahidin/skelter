@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/home/bloc/home_bloc.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/home/bloc/home_bloc.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class EmptySearchView extends StatelessWidget {
   const EmptySearchView({super.key});

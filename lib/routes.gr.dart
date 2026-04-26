@@ -13,81 +13,81 @@ import 'dart:typed_data' as _i48;
 
 import 'package:auto_route/auto_route.dart' as _i43;
 import 'package:flutter/material.dart' as _i44;
-import 'package:skelter/presentation/account_delete_success/account_delete_success_screen.dart'
+import 'package:fuurutta/presentation/account_delete_success/account_delete_success_screen.dart'
     as _i1;
-import 'package:skelter/presentation/biometric_auth/biometric_auth_screen.dart'
+import 'package:fuurutta/presentation/biometric_auth/biometric_auth_screen.dart'
     as _i5;
-import 'package:skelter/presentation/change_theme/change_theme_screen.dart'
+import 'package:fuurutta/presentation/change_theme/change_theme_screen.dart'
     as _i6;
-import 'package:skelter/presentation/chat/chat_conversations.dart' as _i7;
-import 'package:skelter/presentation/chat/chat_screen.dart' as _i8;
-import 'package:skelter/presentation/chat/model/chat_model.dart' as _i46;
-import 'package:skelter/presentation/checkout/invoice_preview_screen.dart'
+import 'package:fuurutta/presentation/chat/chat_conversations.dart' as _i7;
+import 'package:fuurutta/presentation/chat/chat_screen.dart' as _i8;
+import 'package:fuurutta/presentation/chat/model/chat_model.dart' as _i46;
+import 'package:fuurutta/presentation/checkout/invoice_preview_screen.dart'
     as _i21;
-import 'package:skelter/presentation/contact_us/contact_us_screen.dart' as _i10;
-import 'package:skelter/presentation/contact_us/contact_us_submitted_screen.dart'
+import 'package:fuurutta/presentation/contact_us/contact_us_screen.dart' as _i10;
+import 'package:fuurutta/presentation/contact_us/contact_us_submitted_screen.dart'
     as _i11;
-import 'package:skelter/presentation/coupons/available_coupons.dart' as _i4;
-import 'package:skelter/presentation/delete_account/delete_account_screen.dart'
+import 'package:fuurutta/presentation/coupons/available_coupons.dart' as _i4;
+import 'package:fuurutta/presentation/delete_account/delete_account_screen.dart'
     as _i13;
-import 'package:skelter/presentation/empty_screens/empty_view_screens.dart'
+import 'package:fuurutta/presentation/empty_screens/empty_view_screens.dart'
     as _i16;
-import 'package:skelter/presentation/force_update/force_update_screen.dart'
+import 'package:fuurutta/presentation/force_update/force_update_screen.dart'
     as _i17;
-import 'package:skelter/presentation/home/home_screen.dart' as _i19;
-import 'package:skelter/presentation/initial/initial_screen.dart' as _i20;
-import 'package:skelter/presentation/login/bloc/login_bloc.dart' as _i45;
-import 'package:skelter/presentation/login/screens/check_your_email/check_your_email_screen.dart'
+import 'package:fuurutta/presentation/home/home_screen.dart' as _i19;
+import 'package:fuurutta/presentation/initial/initial_screen.dart' as _i20;
+import 'package:fuurutta/presentation/login/bloc/login_bloc.dart' as _i45;
+import 'package:fuurutta/presentation/login/screens/check_your_email/check_your_email_screen.dart'
     as _i9;
-import 'package:skelter/presentation/login/screens/forgot_password/forgot_password_screen.dart'
+import 'package:fuurutta/presentation/login/screens/forgot_password/forgot_password_screen.dart'
     as _i18;
-import 'package:skelter/presentation/login/screens/login_with_email/login_with_email_password_screen.dart'
+import 'package:fuurutta/presentation/login/screens/login_with_email/login_with_email_password_screen.dart'
     as _i22;
-import 'package:skelter/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart'
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart'
     as _i23;
-import 'package:skelter/presentation/login/screens/phone_num_otp_screen/phone_number_otp_screen.dart'
+import 'package:fuurutta/presentation/login/screens/phone_num_otp_screen/phone_number_otp_screen.dart'
     as _i30;
-import 'package:skelter/presentation/manage_subscription/manage_subscription.dart'
+import 'package:fuurutta/presentation/manage_subscription/manage_subscription.dart'
     as _i24;
-import 'package:skelter/presentation/my_orders/my_orders_screen.dart' as _i25;
-import 'package:skelter/presentation/my_orders/widgets/empty_orders_view.dart'
+import 'package:fuurutta/presentation/my_orders/my_orders_screen.dart' as _i25;
+import 'package:fuurutta/presentation/my_orders/widgets/empty_orders_view.dart'
     as _i15;
-import 'package:skelter/presentation/no_internet/no_internet_screen.dart'
+import 'package:fuurutta/presentation/no_internet/no_internet_screen.dart'
     as _i27;
-import 'package:skelter/presentation/notifications/notifications_screen.dart'
+import 'package:fuurutta/presentation/notifications/notifications_screen.dart'
     as _i28;
-import 'package:skelter/presentation/order_detail/order_detail_screen.dart'
+import 'package:fuurutta/presentation/order_detail/order_detail_screen.dart'
     as _i29;
-import 'package:skelter/presentation/product_detail/product_detail_screen.dart'
+import 'package:fuurutta/presentation/product_detail/product_detail_screen.dart'
     as _i32;
-import 'package:skelter/presentation/reminder/reminder_screen.dart' as _i33;
-import 'package:skelter/presentation/saved_cards/saved_card_screen.dart'
+import 'package:fuurutta/presentation/reminder/reminder_screen.dart' as _i33;
+import 'package:fuurutta/presentation/saved_cards/saved_card_screen.dart'
     as _i34;
-import 'package:skelter/presentation/server_error/server_error_screen.dart'
+import 'package:fuurutta/presentation/server_error/server_error_screen.dart'
     as _i35;
-import 'package:skelter/presentation/settings/settings_screen.dart' as _i36;
-import 'package:skelter/presentation/shipping_address/add_address.dart' as _i2;
-import 'package:skelter/presentation/shipping_address/edit_address.dart'
+import 'package:fuurutta/presentation/settings/settings_screen.dart' as _i36;
+import 'package:fuurutta/presentation/shipping_address/add_address.dart' as _i2;
+import 'package:fuurutta/presentation/shipping_address/edit_address.dart'
     as _i14;
-import 'package:skelter/presentation/signup/bloc/signup_bloc.dart' as _i47;
-import 'package:skelter/presentation/signup/screens/phone_num_verified_page/phone_number_verified_screen.dart'
+import 'package:fuurutta/presentation/signup/bloc/signup_bloc.dart' as _i47;
+import 'package:fuurutta/presentation/signup/screens/phone_num_verified_page/phone_number_verified_screen.dart'
     as _i31;
-import 'package:skelter/presentation/signup/screens/profile_picture/add_profile_picture_screen.dart'
+import 'package:fuurutta/presentation/signup/screens/profile_picture/add_profile_picture_screen.dart'
     as _i3;
-import 'package:skelter/presentation/signup/screens/signup_with_email/create_your_password_screen.dart'
+import 'package:fuurutta/presentation/signup/screens/signup_with_email/create_your_password_screen.dart'
     as _i12;
-import 'package:skelter/presentation/signup/screens/signup_with_email/signup_with_email_password_screen.dart'
+import 'package:fuurutta/presentation/signup/screens/signup_with_email/signup_with_email_password_screen.dart'
     as _i37;
-import 'package:skelter/presentation/ssl_pinning/ssl_connection_failed_screen.dart'
+import 'package:fuurutta/presentation/ssl_pinning/ssl_connection_failed_screen.dart'
     as _i38;
-import 'package:skelter/presentation/subscription/subscription_screen.dart'
+import 'package:fuurutta/presentation/subscription/subscription_screen.dart'
     as _i39;
-import 'package:skelter/presentation/under_maintainace/under_maintenance_screen.dart'
+import 'package:fuurutta/presentation/under_maintainace/under_maintenance_screen.dart'
     as _i40;
-import 'package:skelter/presentation/verify_email/screens/verify_email_screen.dart'
+import 'package:fuurutta/presentation/verify_email/screens/verify_email_screen.dart'
     as _i41;
-import 'package:skelter/presentation/wishlist/wishlist_screen.dart' as _i42;
-import 'package:skelter/widgets/attachment_view.dart' as _i26;
+import 'package:fuurutta/presentation/wishlist/wishlist_screen.dart' as _i42;
+import 'package:fuurutta/widgets/attachment_view.dart' as _i26;
 
 /// generated route for
 /// [_i1.AccountDeleteSuccessScreen]

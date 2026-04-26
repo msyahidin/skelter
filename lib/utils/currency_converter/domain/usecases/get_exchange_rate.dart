@@ -1,8 +1,8 @@
 
-import 'package:skelter/core/usecase/usecase.dart';
-import 'package:skelter/utils/currency_converter/domain/entities/currency_rate.dart';
-import 'package:skelter/utils/currency_converter/domain/repositories/currency_converter_repository.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/core/usecase/usecase.dart';
+import 'package:fuurutta/utils/currency_converter/domain/entities/currency_rate.dart';
+import 'package:fuurutta/utils/currency_converter/domain/repositories/currency_converter_repository.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 class ExchangeRateParams {
   const ExchangeRateParams({

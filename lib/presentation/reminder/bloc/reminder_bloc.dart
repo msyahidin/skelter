@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_event.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_state.dart';
-import 'package:skelter/presentation/reminder/model/reminder_model.dart';
-import 'package:skelter/services/notification_service.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_event.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_state.dart';
+import 'package:fuurutta/presentation/reminder/model/reminder_model.dart';
+import 'package:fuurutta/services/notification_service.dart';
 
 class ReminderBloc extends Bloc<ReminderEvent, ReminderState> {
   final NotificationService _notificationService;

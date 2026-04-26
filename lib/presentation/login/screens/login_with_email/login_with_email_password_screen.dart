@@ -1,20 +1,20 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/login/bloc/login_bloc.dart';
-import 'package:skelter/presentation/login/bloc/login_events.dart';
-import 'package:skelter/presentation/login/bloc/login_state.dart';
-import 'package:skelter/presentation/login/screens/login_with_email/widgets/email_password_text_fields.dart';
-import 'package:skelter/presentation/login/screens/login_with_email/widgets/forgot_password_button.dart';
-import 'package:skelter/presentation/login/screens/login_with_email/widgets/login_with_email_pass_button.dart';
-import 'package:skelter/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart';
-import 'package:skelter/presentation/login/widgets/login_app_bar.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
-import 'package:skelter/utils/extensions/primitive_types_extensions.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/login/bloc/login_bloc.dart';
+import 'package:fuurutta/presentation/login/bloc/login_events.dart';
+import 'package:fuurutta/presentation/login/bloc/login_state.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_email/widgets/email_password_text_fields.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_email/widgets/forgot_password_button.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_email/widgets/login_with_email_pass_button.dart';
+import 'package:fuurutta/presentation/login/screens/login_with_phone_number/login_with_phone_number_screen.dart';
+import 'package:fuurutta/presentation/login/widgets/login_app_bar.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/utils/extensions/primitive_types_extensions.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 @RoutePage()
 class LoginWithEmailPasswordScreen extends StatelessWidget {

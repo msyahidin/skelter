@@ -5,20 +5,20 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_exit_app/flutter_exit_app.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:skelter/core/deep_link/app_deep_link_manager.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/biometric_auth/enum/biometric_auth_enrollment_results.dart';
-import 'package:skelter/presentation/biometric_auth/widgets/biometric_auth_enrollment_bottom_sheet.dart';
-import 'package:skelter/presentation/force_update/constants/force_update_constants.dart';
-import 'package:skelter/presentation/login/models/login_details.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/services/local_auth_services.dart';
-import 'package:skelter/services/remote_config_service.dart';
-import 'package:skelter/shared_pref/pref_keys.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/utils/app_version_helper.dart';
-import 'package:skelter/utils/extensions/primitive_types_extensions.dart';
+import 'package:fuurutta/core/deep_link/app_deep_link_manager.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/biometric_auth/enum/biometric_auth_enrollment_results.dart';
+import 'package:fuurutta/presentation/biometric_auth/widgets/biometric_auth_enrollment_bottom_sheet.dart';
+import 'package:fuurutta/presentation/force_update/constants/force_update_constants.dart';
+import 'package:fuurutta/presentation/login/models/login_details.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/services/local_auth_services.dart';
+import 'package:fuurutta/services/remote_config_service.dart';
+import 'package:fuurutta/shared_pref/pref_keys.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/utils/app_version_helper.dart';
+import 'package:fuurutta/utils/extensions/primitive_types_extensions.dart';
 
 @RoutePage()
 class InitialScreen extends StatefulWidget {

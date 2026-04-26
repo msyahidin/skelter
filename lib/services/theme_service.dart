@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/shared_pref/prefs.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
 
 class ThemeService {
   static const _themeModeKey = 'theme_mode';

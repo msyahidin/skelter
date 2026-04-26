@@ -1,21 +1,21 @@
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/payment_failed/payment_failed_screen.dart';
-import 'package:skelter/presentation/payment_processing/payment_processing_screen.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_bloc.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_event.dart';
-import 'package:skelter/presentation/subscription/bloc/subscription_state.dart';
-import 'package:skelter/presentation/subscription/widgets/pro_icon_text.dart';
-import 'package:skelter/presentation/subscription/widgets/subscription_bottom_nav_bar.dart';
-import 'package:skelter/presentation/subscription/widgets/subscription_close_icon.dart';
-import 'package:skelter/presentation/subscription/widgets/subscription_plan_fetch_error.dart';
-import 'package:skelter/presentation/subscription/widgets/subscription_plans.dart';
-import 'package:skelter/presentation/subscription/widgets/subscription_renew_text.dart';
-import 'package:skelter/presentation/subscription_activated/subscription_activated_screen.dart';
-import 'package:skelter/services/subscription_service.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/payment_failed/payment_failed_screen.dart';
+import 'package:fuurutta/presentation/payment_processing/payment_processing_screen.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_bloc.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_event.dart';
+import 'package:fuurutta/presentation/subscription/bloc/subscription_state.dart';
+import 'package:fuurutta/presentation/subscription/widgets/pro_icon_text.dart';
+import 'package:fuurutta/presentation/subscription/widgets/subscription_bottom_nav_bar.dart';
+import 'package:fuurutta/presentation/subscription/widgets/subscription_close_icon.dart';
+import 'package:fuurutta/presentation/subscription/widgets/subscription_plan_fetch_error.dart';
+import 'package:fuurutta/presentation/subscription/widgets/subscription_plans.dart';
+import 'package:fuurutta/presentation/subscription/widgets/subscription_renew_text.dart';
+import 'package:fuurutta/presentation/subscription_activated/subscription_activated_screen.dart';
+import 'package:fuurutta/services/subscription_service.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
 
 @RoutePage()
 class SubscriptionScreen extends StatelessWidget {

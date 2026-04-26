@@ -1,14 +1,14 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_style_enum.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_style_enum.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class CouponItem extends StatelessWidget {
   const CouponItem({

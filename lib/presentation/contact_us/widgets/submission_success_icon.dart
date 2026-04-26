@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:skelter/gen/assets.gen.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
 
 class SubmissionSuccessIcon extends StatelessWidget {
   const SubmissionSuccessIcon({super.key});

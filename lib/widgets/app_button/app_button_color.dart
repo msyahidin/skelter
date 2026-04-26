@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_state_enum.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_state_enum.dart';
 
 class AppButtonColor {
   static Color resolvePrimaryBg(BuildContext context, AppButtonState state) {

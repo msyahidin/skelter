@@ -4,15 +4,15 @@ import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/login/models/login_details.dart';
-import 'package:skelter/presentation/signup/enum/user_details_input_status.dart';
-import 'package:skelter/presentation/verify_email/bloc/verify_email_event.dart';
-import 'package:skelter/presentation/verify_email/bloc/verify_email_state.dart';
-import 'package:skelter/services/firebase_auth_services.dart';
-import 'package:skelter/shared_pref/pref_keys.dart';
-import 'package:skelter/shared_pref/prefs.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/login/models/login_details.dart';
+import 'package:fuurutta/presentation/signup/enum/user_details_input_status.dart';
+import 'package:fuurutta/presentation/verify_email/bloc/verify_email_event.dart';
+import 'package:fuurutta/presentation/verify_email/bloc/verify_email_state.dart';
+import 'package:fuurutta/services/firebase_auth_services.dart';
+import 'package:fuurutta/shared_pref/pref_keys.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
 
 /// Bloc responsible for managing email verification state and events.
 class VerifyEmailBloc extends Bloc<VerifyEmailEvent, VerifyEmailState> {

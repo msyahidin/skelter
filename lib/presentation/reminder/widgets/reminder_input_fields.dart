@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_bloc.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_event.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_state.dart';
-import 'package:skelter/utils/extensions/primitive_types_extensions.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_bloc.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_event.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_state.dart';
+import 'package:fuurutta/utils/extensions/primitive_types_extensions.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class ReminderInputFields extends StatefulWidget {
   const ReminderInputFields({super.key});

@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/presentation/delete_account/bloc/delete_account_event.dart';
-import 'package:skelter/presentation/delete_account/bloc/delete_account_state.dart';
-import 'package:skelter/presentation/delete_account/constants/delete_account_constants.dart';
-import 'package:skelter/services/firebase_auth_services.dart';
-import 'package:skelter/utils/haptic_feedback_util.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/presentation/delete_account/bloc/delete_account_event.dart';
+import 'package:fuurutta/presentation/delete_account/bloc/delete_account_state.dart';
+import 'package:fuurutta/presentation/delete_account/constants/delete_account_constants.dart';
+import 'package:fuurutta/services/firebase_auth_services.dart';
+import 'package:fuurutta/utils/haptic_feedback_util.dart';
 
 class DeleteAccountBloc extends Bloc<DeleteAccountEvent, DeleteAccountState> {
   final FirebaseAuthService _firebaseAuthService = sl();

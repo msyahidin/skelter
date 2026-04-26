@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:skelter/presentation/delete_account/enum/delete_account_reasons.dart';
+import 'package:fuurutta/presentation/delete_account/enum/delete_account_reasons.dart';
 
 abstract class DeleteAccountEvent with EquatableMixin {
   const DeleteAccountEvent();

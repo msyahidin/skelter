@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:skelter/presentation/home/bloc/home_bloc.dart';
-import 'package:skelter/presentation/home/bloc/home_event.dart';
-import 'package:skelter/presentation/home/bloc/home_state.dart';
-import 'package:skelter/presentation/home/data/dummy_product_data.dart';
-import 'package:skelter/presentation/home/home_screen.dart';
-import 'package:skelter/widgets/styling/app_theme_data.dart';
+import 'package:fuurutta/presentation/home/bloc/home_bloc.dart';
+import 'package:fuurutta/presentation/home/bloc/home_event.dart';
+import 'package:fuurutta/presentation/home/bloc/home_state.dart';
+import 'package:fuurutta/presentation/home/data/dummy_product_data.dart';
+import 'package:fuurutta/presentation/home/home_screen.dart';
+import 'package:fuurutta/widgets/styling/app_theme_data.dart';
 
 import '../../flutter_test_config.dart';
 import '../../test_helpers.dart';

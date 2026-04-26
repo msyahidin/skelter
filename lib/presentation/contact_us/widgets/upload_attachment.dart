@@ -4,14 +4,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:mobkit_dashed_border/mobkit_dashed_border.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/contact_us/bloc/contact_us_bloc.dart';
-import 'package:skelter/presentation/contact_us/bloc/contact_us_event.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_style_enum.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/contact_us/bloc/contact_us_bloc.dart';
+import 'package:fuurutta/presentation/contact_us/bloc/contact_us_event.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_style_enum.dart';
 
 class UploadAttachment extends StatelessWidget {
   const UploadAttachment({super.key});

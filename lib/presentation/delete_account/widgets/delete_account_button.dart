@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/delete_account/bloc/delete_account_bloc.dart';
-import 'package:skelter/presentation/delete_account/enum/delete_account_reasons.dart';
-import 'package:skelter/presentation/delete_account/widgets/delete_account_alert_bottom_sheet.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
-import 'package:skelter/utils/haptic_feedback_util.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_state_enum.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/delete_account/bloc/delete_account_bloc.dart';
+import 'package:fuurutta/presentation/delete_account/enum/delete_account_reasons.dart';
+import 'package:fuurutta/presentation/delete_account/widgets/delete_account_alert_bottom_sheet.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/utils/haptic_feedback_util.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_state_enum.dart';
 
 class DeleteAccountButton extends StatelessWidget {
   const DeleteAccountButton({super.key});

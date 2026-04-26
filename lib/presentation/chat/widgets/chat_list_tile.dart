@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/presentation/chat/model/chat_model.dart';
-import 'package:skelter/presentation/chat/widgets/chat_content_preview.dart';
-import 'package:skelter/presentation/chat/widgets/message_details.dart';
-import 'package:skelter/presentation/chat/widgets/user_avatar.dart';
+import 'package:fuurutta/presentation/chat/model/chat_model.dart';
+import 'package:fuurutta/presentation/chat/widgets/chat_content_preview.dart';
+import 'package:fuurutta/presentation/chat/widgets/message_details.dart';
+import 'package:fuurutta/presentation/chat/widgets/user_avatar.dart';
 
 class ChatListTile extends StatelessWidget {
   const ChatListTile({

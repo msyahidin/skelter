@@ -4,9 +4,9 @@ import 'package:app_links/app_links.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:skelter/main.dart';
-import 'package:skelter/presentation/product_detail/constant/product_detail_constants.dart';
-import 'package:skelter/routes.gr.dart';
+import 'package:fuurutta/main.dart';
+import 'package:fuurutta/presentation/product_detail/constant/product_detail_constants.dart';
+import 'package:fuurutta/routes.gr.dart';
 
 class AppDeepLinkManager {
   AppDeepLinkManager();

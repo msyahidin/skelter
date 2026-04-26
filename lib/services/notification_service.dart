@@ -5,8 +5,8 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
-import 'package:skelter/presentation/reminder/model/reminder_model.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/presentation/reminder/model/reminder_model.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 @pragma('vm:entry-point')
 Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {

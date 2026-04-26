@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/utils/typedef.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/utils/typedef.dart';
 
 class ProductDetailModel extends ProductDetail {
   const ProductDetailModel({

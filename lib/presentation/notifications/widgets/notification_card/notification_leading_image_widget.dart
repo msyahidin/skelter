@@ -2,11 +2,11 @@ import 'package:auto_route/auto_route.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:skelter/presentation/notifications/model/notification_model.dart';
-import 'package:skelter/routes.gr.dart';
-import 'package:skelter/utils/app_environment.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/presentation/notifications/model/notification_model.dart';
+import 'package:fuurutta/routes.gr.dart';
+import 'package:fuurutta/utils/app_environment.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class NotificationLeadingImageWidget extends StatelessWidget {
   const NotificationLeadingImageWidget({

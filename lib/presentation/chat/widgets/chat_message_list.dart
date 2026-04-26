@@ -1,12 +1,12 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/chat/data/chat_conversation_sample_data.dart';
-import 'package:skelter/presentation/chat/model/chat_message_model.dart';
-import 'package:skelter/presentation/chat/model/chat_model.dart';
-import 'package:skelter/presentation/chat/widgets/chat_conversation_tile.dart';
-import 'package:skelter/presentation/chat/widgets/date_separator_text.dart';
-import 'package:skelter/utils/extensions/date_time_extensions.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/chat/data/chat_conversation_sample_data.dart';
+import 'package:fuurutta/presentation/chat/model/chat_message_model.dart';
+import 'package:fuurutta/presentation/chat/model/chat_model.dart';
+import 'package:fuurutta/presentation/chat/widgets/chat_conversation_tile.dart';
+import 'package:fuurutta/presentation/chat/widgets/date_separator_text.dart';
+import 'package:fuurutta/utils/extensions/date_time_extensions.dart';
 
 class ChatMessageList extends StatefulWidget {
   const ChatMessageList({super.key, required this.chatUser});

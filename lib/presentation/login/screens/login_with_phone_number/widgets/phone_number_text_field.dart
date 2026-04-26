@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/constants/integration_test_keys.dart';
-import 'package:skelter/gen/assets.gen.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/login/bloc/login_bloc.dart';
-import 'package:skelter/presentation/login/bloc/login_events.dart';
-import 'package:skelter/utils/app_environment.dart';
-import 'package:skelter/utils/extensions/primitive_types_extensions.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/constants/integration_test_keys.dart';
+import 'package:fuurutta/gen/assets.gen.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/login/bloc/login_bloc.dart';
+import 'package:fuurutta/presentation/login/bloc/login_events.dart';
+import 'package:fuurutta/utils/app_environment.dart';
+import 'package:fuurutta/utils/extensions/primitive_types_extensions.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
 
 class PhoneNumberTextField extends StatefulWidget {
   const PhoneNumberTextField({
@@ -26,7 +26,7 @@ class PhoneNumberTextField extends StatefulWidget {
 class _PhoneNumberTextFieldState extends State<PhoneNumberTextField> {
   late TextEditingController _phoneInputController;
   final FocusNode _focusNode = FocusNode();
-  final PhoneNumber phoneNumberData = PhoneNumber(isoCode: 'IN');
+  final PhoneNumber phoneNumberData = PhoneNumber(isoCode: 'ID');
 
   final Debouncer<String> _debouncer =
       Debouncer<String>(const Duration(milliseconds: 500), initialValue: '');

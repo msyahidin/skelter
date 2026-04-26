@@ -1,12 +1,12 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/app_localizations.dart';
-import 'package:skelter/presentation/checkout/model/invoice_model.dart';
-import 'package:skelter/presentation/home/domain/usecases/get_products.dart';
-import 'package:skelter/presentation/my_orders/bloc/my_order_event.dart';
-import 'package:skelter/presentation/my_orders/bloc/my_order_state.dart';
-import 'package:skelter/presentation/my_orders/services/pdf_service.dart';
-import 'package:skelter/presentation/product_detail/domain/usecases/get_product_detail.dart';
-import 'package:skelter/utils/permission_util.dart';
+import 'package:fuurutta/i18n/app_localizations.dart';
+import 'package:fuurutta/presentation/checkout/model/invoice_model.dart';
+import 'package:fuurutta/presentation/home/domain/usecases/get_products.dart';
+import 'package:fuurutta/presentation/my_orders/bloc/my_order_event.dart';
+import 'package:fuurutta/presentation/my_orders/bloc/my_order_state.dart';
+import 'package:fuurutta/presentation/my_orders/services/pdf_service.dart';
+import 'package:fuurutta/presentation/product_detail/domain/usecases/get_product_detail.dart';
+import 'package:fuurutta/utils/permission_util.dart';
 
 class MyOrderBloc extends Bloc<MyOrderEvent, MyOrderState> {
   final AppLocalizations localizations;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 
 class ShimmerContent extends StatelessWidget {
   const ShimmerContent({

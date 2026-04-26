@@ -1,15 +1,15 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_bloc.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_event.dart';
-import 'package:skelter/presentation/biometric_auth/bloc/biometric_auth_state.dart';
-import 'package:skelter/presentation/biometric_auth/widgets/biometric_auth_appbar.dart';
-import 'package:skelter/presentation/biometric_auth/widgets/biometric_auth_description.dart';
-import 'package:skelter/presentation/biometric_auth/widgets/biometric_auth_enrollment_bottom_sheet.dart';
-import 'package:skelter/presentation/biometric_auth/widgets/biometric_auth_toggle_tile.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_bloc.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_event.dart';
+import 'package:fuurutta/presentation/biometric_auth/bloc/biometric_auth_state.dart';
+import 'package:fuurutta/presentation/biometric_auth/widgets/biometric_auth_appbar.dart';
+import 'package:fuurutta/presentation/biometric_auth/widgets/biometric_auth_description.dart';
+import 'package:fuurutta/presentation/biometric_auth/widgets/biometric_auth_enrollment_bottom_sheet.dart';
+import 'package:fuurutta/presentation/biometric_auth/widgets/biometric_auth_toggle_tile.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
 
 @RoutePage()
 class BiometricAuthScreen extends StatelessWidget {

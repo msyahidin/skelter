@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:skelter/core/errors/exceptions.dart';
-import 'package:skelter/presentation/product_detail/data/models/ai_product_description_model.dart';
-import 'package:skelter/presentation/product_detail/domain/entities/product_detail.dart';
-import 'package:skelter/services/ai/gemini_service.dart';
+import 'package:fuurutta/core/errors/exceptions.dart';
+import 'package:fuurutta/presentation/product_detail/data/models/ai_product_description_model.dart';
+import 'package:fuurutta/presentation/product_detail/domain/entities/product_detail.dart';
+import 'package:fuurutta/services/ai/gemini_service.dart';
 
 abstract class AIProductDescriptionRemoteDataSource {
   Future<AIProductDescriptionModel> generateProductDescription({

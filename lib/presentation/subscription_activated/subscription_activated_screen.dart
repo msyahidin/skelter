@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/presentation/subscription_activated/widgets/navigate_to_home_screen_button.dart';
-import 'package:skelter/presentation/subscription_activated/widgets/subscription_activated_message.dart';
-import 'package:skelter/presentation/subscription_activated/widgets/subscription_activated_success_icon.dart';
-import 'package:skelter/presentation/subscription_activated/widgets/subscription_activated_title.dart';
+import 'package:fuurutta/presentation/subscription_activated/widgets/navigate_to_home_screen_button.dart';
+import 'package:fuurutta/presentation/subscription_activated/widgets/subscription_activated_message.dart';
+import 'package:fuurutta/presentation/subscription_activated/widgets/subscription_activated_success_icon.dart';
+import 'package:fuurutta/presentation/subscription_activated/widgets/subscription_activated_title.dart';
 
 class SubscriptionActivatedScreen extends StatelessWidget {
   const SubscriptionActivatedScreen({super.key});

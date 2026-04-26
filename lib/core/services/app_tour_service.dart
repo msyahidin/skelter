@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:skelter/common/theme/text_style/app_text_styles.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_style_enum.dart';
-import 'package:skelter/widgets/styling/app_colors.dart';
+import 'package:fuurutta/common/theme/text_style/app_text_styles.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_style_enum.dart';
+import 'package:fuurutta/widgets/styling/app_colors.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 
 // Service to manage the app tour

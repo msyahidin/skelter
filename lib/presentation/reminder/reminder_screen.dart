@@ -1,15 +1,15 @@
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_bloc.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_event.dart';
-import 'package:skelter/presentation/reminder/bloc/reminder_state.dart';
-import 'package:skelter/presentation/reminder/widgets/reminder_appbar.dart';
-import 'package:skelter/presentation/reminder/widgets/reminder_date_time_selector.dart';
-import 'package:skelter/presentation/reminder/widgets/reminder_input_fields.dart';
-import 'package:skelter/presentation/reminder/widgets/schedule_reminder_button.dart';
-import 'package:skelter/utils/extensions/build_context_ext.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_bloc.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_event.dart';
+import 'package:fuurutta/presentation/reminder/bloc/reminder_state.dart';
+import 'package:fuurutta/presentation/reminder/widgets/reminder_appbar.dart';
+import 'package:fuurutta/presentation/reminder/widgets/reminder_date_time_selector.dart';
+import 'package:fuurutta/presentation/reminder/widgets/reminder_input_fields.dart';
+import 'package:fuurutta/presentation/reminder/widgets/schedule_reminder_button.dart';
+import 'package:fuurutta/utils/extensions/build_context_ext.dart';
 
 @RoutePage()
 class ReminderScreen extends StatefulWidget {

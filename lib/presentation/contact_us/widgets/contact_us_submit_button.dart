@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:skelter/i18n/localization.dart';
-import 'package:skelter/presentation/contact_us/bloc/contact_us_bloc.dart';
-import 'package:skelter/presentation/contact_us/bloc/contact_us_event.dart';
-import 'package:skelter/utils/theme/extention/theme_extension.dart';
-import 'package:skelter/widgets/app_button/app_button.dart';
-import 'package:skelter/widgets/app_button/enums/app_button_size_enum.dart';
+import 'package:fuurutta/i18n/localization.dart';
+import 'package:fuurutta/presentation/contact_us/bloc/contact_us_bloc.dart';
+import 'package:fuurutta/presentation/contact_us/bloc/contact_us_event.dart';
+import 'package:fuurutta/utils/theme/extention/theme_extension.dart';
+import 'package:fuurutta/widgets/app_button/app_button.dart';
+import 'package:fuurutta/widgets/app_button/enums/app_button_size_enum.dart';
 
 class ContactUsSubmitButton extends StatelessWidget {
   const ContactUsSubmitButton({super.key});

@@ -7,11 +7,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
-import 'package:skelter/constants/constants.dart';
-import 'package:skelter/core/services/injection_container.dart';
-import 'package:skelter/presentation/delete_account/constants/delete_account_constants.dart';
-import 'package:skelter/shared_pref/prefs.dart';
-import 'package:skelter/utils/cache_manager.dart';
+import 'package:fuurutta/constants/constants.dart';
+import 'package:fuurutta/core/services/injection_container.dart';
+import 'package:fuurutta/presentation/delete_account/constants/delete_account_constants.dart';
+import 'package:fuurutta/shared_pref/prefs.dart';
+import 'package:fuurutta/utils/cache_manager.dart';
 
 class FirebaseAuthService {
   final FirebaseAuth _firebaseAuth;
